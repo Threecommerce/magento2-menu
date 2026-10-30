@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.3
+
+- Template Hyvä: il pannello mobile non usa più espressioni inline (`{ expanded: false }`, `expanded = !expanded`, `{ 'rotate-90': expanded }`) ma il componente `tcMenuItem` registrato con `Alpine.data`. Il menu funziona anche con la build CSP di Alpine (tema `Hyva/default-csp`, policy senza `unsafe-eval`). Nessun cambio di comportamento.
+
 ## 1.3.2
 
 - Fix: saving a menu with invalid data (bad identifier, clash, empty title) now shows the validation message instead of a 500 (rollback outside a transaction).

@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.2
+
+- Fix: saving a menu with invalid data (bad identifier, clash, empty title) now shows the validation message instead of a 500 (rollback outside a transaction).
+
 ## 1.3.1
 - Template Hyvä: tolto `x-collapse` dai sottomenu del pannello mobile. Il plugin Collapse di Alpine non è incluso in Hyvä, quindi l'attributo non faceva nulla e riempiva la console del browser di avvisi (*You can't use [x-collapse] without first installing the "Collapse" plugin*). Nessun cambio di comportamento: i sottomenu si aprono e chiudono come prima.
 

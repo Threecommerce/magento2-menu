@@ -22,7 +22,7 @@ Navigation menus managed from the admin for Magento 2 and Mage-OS, with a **diff
 - Markup and CSS of its own, with CSS custom properties; only a small vanilla script for the mobile menu (no jQuery, Alpine or Knockout). A Hyvä template (Tailwind + Alpine) is included.
 - Command to import menus from Snowdog Menu (`threecommerce:menu:import-snowdog`); Snowdog data is left untouched.
 
-![Navigation menu with dropdown and mega menu on the storefront](images/navigation-menu-storefront.png)
+![Navigation menu with a dropdown on a Hyvä storefront](images/navigation-menu-storefront.png)
 
 ## Requirements
 

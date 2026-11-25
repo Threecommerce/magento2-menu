@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.4
+
+- Template Hyvä: hover sulla voce attiva. La voce della pagina corrente ha sfondo `primary-lighter` e testo bianco; al passaggio del mouse prendeva lo sfondo grigio chiaro delle altre voci e il testo bianco diventava illeggibile. Ora la voce attiva al passaggio del mouse passa a `bg-primary` (desktop e pannello mobile).
+
 ## 1.3.3
 
 - Template Hyvä: il pannello mobile non usa più espressioni inline (`{ expanded: false }`, `expanded = !expanded`, `{ 'rotate-90': expanded }`) ma il componente `tcMenuItem` registrato con `Alpine.data`. Il menu funziona anche con la build CSP di Alpine (tema `Hyva/default-csp`, policy senza `unsafe-eval`). Nessun cambio di comportamento.
